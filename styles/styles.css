@@ -64,23 +64,23 @@ i{
 
 
                                         /*ESTILOS AL CONTENEDOR REDES GENERAL*/
-.redesSociales{
+.redes-sociales{
     list-style-type: none;
     display: flex;
     justify-content: center;
 }
 
-.redesSociales__item{
+.redes-sociales-item{
     margin-inline: 1rem;
 }
 
-.contenedorRedes{
+.contenedor-redes{
     margin-top: 1.5rem;
 }
 
                                             /*ESTILOS AL NAVBAR GENERAL*/
 
-.barraNavegacion{
+.barra-navegacion{
     display: flex !important;
     justify-content: space-around !important;
     background-color:transparent!important;
@@ -92,7 +92,7 @@ i{
     font-size: 25px;
 }
 
-.navbutton{
+.nav-button{
     background-color: #ffffff;
     color: black;
     padding: 2px;
@@ -100,26 +100,26 @@ i{
 }
 
                                             /*ESTILOS AL CONTENEDOR TOUR Y PAGE TOUR*/
-.imgFecha{
+.img-fecha{
     display: flex;
     justify-content: space-around;
 }
 
-.secFechas{
+.sec-fechas{
     margin-top: 3rem;
     margin-bottom: 40px;
 }
 
-.secFechas img{
+.sec-fechas img{
     width: 30%;
     margin-inline: 40px;
 }
 
-.secFechas__h2{
+.sec-fechas-h2{
     margin: 1rem;
 }
 
-.secFechas2 img{
+.sec-fechas2 img{
     width: 30%;
     margin-inline: 30px;
     margin-top: 2rem;
@@ -127,13 +127,13 @@ i{
 
 
                                                     /*ESTILOS CONTENEDOR MUSICA Y PAGE IMAGENES*/
- .secMusica-letra{
+ .sec-musica-letra{
  display: flex;
  justify-content: space-around;
  margin-top: 40px;
 }
 
-.secMusica-letra2{
+.sec-musica-letra2{
     display: flex;
     justify-content: space-around;
   
@@ -143,7 +143,7 @@ i{
     text-align: center;
 }
 
-.videoContainer{
+.video-container{
     margin-top: 6rem;
     margin-left: 1rem;
 }
@@ -153,14 +153,14 @@ i{
     height:415px; 
 }
 
-.nombreCancion{
+.nombre-cancion{
     padding-inline: 2rem;
     color: #ffffff;
     font-size: 25px;
     font-weight: bold;
 }
 
-.letraCancion{
+.letra-cancion{
     font-family:'Diphylleia', serif;
     padding-inline: 2rem;
     padding-block: 10px;
@@ -169,24 +169,24 @@ i{
 
 
                                               /*ESTILOS AL CONTENEDOR IMAGENES Y PAGE IMAGENES*/
-.contendorGaleriaImagenes{
+.contenedor-galeria-imagenes{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
 }
 
-.contendorGaleriaImagenes img{
+.contenedor-galeria-imagenes img{
     width: 100%;
     height: 15rem;
     object-fit: cover;
 } 
 
-.contendorGaleriaImagenes2{
+.contenedor-galeria-imagenes2{
     padding-block: 3rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
 }
 
-.contendorGaleriaImagenes2 img{
+.contenedor-galeria-imagenes2 img{
     width: 100%;
     height: 15rem;
     object-fit: cover;
@@ -194,35 +194,35 @@ i{
 
 
                                                       /*ESTILOS AL FOOTER Y PAGE FOOTER*/
-.footer__contacto{
+.footer-contacto{
     font-family: 'Courier New', Courier, monospace;
     background-color: gray;
     margin-top: 2rem;
     padding: 2rem;
 }
 
-.footer__contacto2{
+.footer-contacto2{
         font-family: 'Courier New', Courier, monospace;
         background-color: gray;
         margin-top: 2rem;
         padding: 4rem;
 } 
 
-.footer__btn{
+.footer-btn{
     text-align: center;
     margin-top: 2rem
 }
 
-.footer__h3{
+.footer-h3{
         color:#ffffff;
         font-weight: bold
 }
 
-.footer__p{
+.footer-p{
     margin-top: 24px;
 }
 
-.container__img{
+.container-img{
     padding: 1rem;
     background-color: #ffffff;
     border-radius: 0.375rem;
@@ -231,14 +231,14 @@ i{
                                                     /*FIN DEL INDEX*/
 
                                             /*ESTILOS A PAGE SOBRE NOSOTROS*/
-.sobreNosotros{
+.sobre-nosotros{
     color:#ffffff;
     font-family: 'Lora', serif;
     font-size: 30px;
     padding: 2rem;
 }
 
-.sobreNosotros{
+.sobre-nosotros{
 text-shadow: 0px 0px 10px #FFF;
 text-shadow: 4px 2px 12px #20b36e,;
 text-shadow: -4px 2px 12px #20b36e;
@@ -249,7 +249,7 @@ text-shadow: 0px -12px 14px #198751;
 
                                               /*MEDIA QUERIES*/
 @media (max-width: 992px){
-    .secMusica-letra{
+    .sec-musica-letra{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -257,16 +257,16 @@ text-shadow: 0px -12px 14px #198751;
     .container__nav{
         justify-content: end !important;    
     }
-    .videoContainer{
+    .video-container{
         margin-top: 0px;
         margin-inline: 2rem ;
     }   
-    .imgFecha{
+    .img-fecha{
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .imgFecha img{
+    .img-fecha img{
         margin: 20px;
         width: 100%;
     }
@@ -286,7 +286,7 @@ text-shadow: 0px -12px 14px #198751;
         justify-content: end !important;    
     }
     
-    .barraNavegacion{
+    .barra-navegacion{
         align-items: end;
     }
     
@@ -294,17 +294,11 @@ text-shadow: 0px -12px 14px #198751;
         font-size: 2rem;
     }
      
-    .redesSociales{
+    .redes-sociales{
         margin: 0;
     }
     
-    .secMusica-letra{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .videoContainer{
+    .video-container{
         margin-inline: 1rem ;
     }
 
@@ -312,13 +306,13 @@ text-shadow: 0px -12px 14px #198751;
         width: 500px;
     }
 
-    .contendorGaleriaImagenes{
+    .contenedor-galeria-imagenes{
         grid-template-columns: 1fr;
         gap: 3rem;
         margin-bottom: 3rem;
     }
 
-    .contendorGaleriaImagenes img {
+    .contenedor-galeria-imagenes img {
         width: 100%;
         object-fit: cover;
     }
@@ -326,7 +320,7 @@ text-shadow: 0px -12px 14px #198751;
 
 
 @media (max-width: 600px){
-    .contenedorRedes{
+    .contenedor-redes{
         margin: 0;
     }
 
@@ -334,7 +328,7 @@ text-shadow: 0px -12px 14px #198751;
         justify-content: end !important;    
     }
 
-    .videoContainer{
+    .video-container{
         margin: 10px
     }
     .video{ 
@@ -345,7 +339,7 @@ text-shadow: 0px -12px 14px #198751;
         font-size: 11px;
     }
 
-    .navbutton{
+    .nav-button{
         font-size: 15px;
     }
 
@@ -382,23 +376,23 @@ text-shadow: 0px -12px 14px #198751;
         padding-left: 0px;
     }
        
-    .redesSociales__item{
+    .redes-sociales-item{
         margin-inline: 0px;
     }
    
-    .navbutton{
+    .nav-button{
         font-size: 12px;
     }
         
-    .videoContainer{
+    .video-container{
         margin-inline: 0px;
     }
 
-    .footer__contacto2{
+    .footer-contacto2{
         padding: 2rem;
     }
      
-    .footer__h3{
+    .footer-h3{
         font-size: 18px;
     }
     
@@ -406,30 +400,31 @@ text-shadow: 0px -12px 14px #198751;
         overflow-x: hidden
     }    
         
-    .barraNavegacion{
+    .barra-navegacion{
         display: flex;
         align-items: start;
         justify-content: start !important;
     }
+
     .navegacion{
         display: flex;
         align-items: start !important;
         justify-content: start !important;
     }
         
-    .container__img{
+    .container-img{
         display: none;
     }
 
-    .redesSociales{
+    .redes-sociales{
         padding-top: 10px;
     }
        
-    .secMusica-letra{
+    .sec-musica-letra{
         margin-top: 20px;
     }
       
-    .imagenes__h2{
+    .imagenes-h2{
         margin-top: 2rem;
     }
 }
