@@ -1,0 +1,222 @@
+@media (max-width: 992px){
+    .sec-musica-letra{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .video-container{
+            margin-top: 0px;
+            margin-inline: 2rem ;
+        }
+    }
+
+     .header {
+        .container__nav{
+            justify-content: end !important;    
+        }
+    }   
+ 
+    .fechas {
+        .img-fecha{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .img-fecha img{
+            margin: 20px;
+            width: 100%;
+        }
+    }  
+    .sec-fechas2{
+        .img-fecha{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .img-fecha img{
+            margin: 20px;
+            width: 100%;
+        }
+
+    }
+ }
+
+@media (max-width: 768px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        .container__nav{
+            justify-content: end !important;    
+        }
+        .barra-navegacion{
+            align-items: end;
+        }
+        h2{
+            font-size: 2rem;
+        }
+        .redes-sociales{
+            margin: 0;
+        }
+    }
+    
+    .sec-musica-letra{
+        .video-container{
+            margin-inline: 1rem ;
+        }
+
+        .video{ 
+            width: 500px;
+        }
+    }   
+   
+    .sec-galeria-imagenes{
+        .contenedor-galeria-imagenes{
+            grid-template-columns: 1fr;
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+        .contenedor-galeria-imagenes img {
+            width: 100%;
+            object-fit: cover;
+        }
+    } 
+}
+
+@media (max-width: 600px){
+    .header {
+        .contenedor-redes{
+            margin: 0;
+        }
+        .container__nav{
+            justify-content: end !important;    
+        }
+        .nav__item{ 
+            font-size: 11px;
+        }
+        .nav-button{
+            font-size: 15px;
+        }
+        i{
+            font-size: 18px;
+        }
+    }
+    .sec-musica-letra{
+        .video-container{
+            margin: 10px
+        }
+        .video{ 
+            width: 80vw;
+            }
+    }
+}
+
+@media (max-width: 400px){
+    .header{
+        background-color: #198754;
+        padding-bottom: 20px;
+        a{
+            font-size: 3px;
+        }
+    
+        i{
+            font-size: 20px;
+            padding: 8px;
+        }
+        ul{
+            padding-left: 0px;
+        }
+        .redes-sociales{
+            padding-top: 10px;
+        }
+        .redes-sociales-item{
+            margin-inline: 0px;
+        }
+        .nav-button{
+            font-size: 12px;
+        }
+        .container__nav{
+            justify-content: start !important;    
+        }    
+        .barra-navegacion{
+            display: flex;
+            align-items: start;
+            justify-content: start !important;
+        }
+        .navegacion{
+            display: flex;
+            align-items: start !important;
+            justify-content: start !important;
+        }
+    }
+    .header2{
+        background-color: #198754;
+        padding-bottom: 20px;
+        a{
+            font-size: 3px;
+        }
+    
+        i{
+            font-size: 20px;
+            padding: 8px;
+        }
+        ul{
+            padding-left: 0px;
+        }
+        .redes-sociales{
+            padding-top: 10px;
+        }
+        .redes-sociales-item{
+            margin-inline: 0px;
+        }
+        .nav-button{
+            font-size: 12px;
+        }
+        .container__nav{
+            justify-content: start !important;    
+        }    
+        .barra-navegacion{
+            display: flex;
+            align-items: start;
+            justify-content: start !important;
+        }
+        .navegacion{
+            display: flex;
+            align-items: start !important;
+            justify-content: start !important;
+        }
+    }
+    .sec-musica-letra{
+        margin-top: 20px;
+        .video-container{
+            margin-inline: 0px;
+        }
+    }
+    .foooter-contacto {
+        .footer-h3{
+            font-size: 18px;
+        }
+    }
+    .footer-contacto2{
+        padding: 2rem;
+        .footer-h3{
+            font-size: 18px;
+        }
+        .container-img{
+            display: none;
+        }  
+        .container-img{
+            display: none;
+        }
+    }
+    body{
+        overflow-x: hidden;
+        h1{
+            padding-top: 0px;
+            margin-top: 2rem;
+        }
+    }    
+    .sec-galeria-imagenes{
+        .imagenes-h2{
+            margin-top: 2rem;
+    }
+} 
+}

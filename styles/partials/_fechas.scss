@@ -1,0 +1,37 @@
+.fechas {
+    .img-fecha{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .sec-fechas{
+        margin-top: 3rem;
+        margin-bottom: 40px;
+    }
+    
+    .sec-fechas img{
+        width: 30%;
+        margin-inline: 40px;
+    }
+    
+    .sec-fechas-h2{
+        margin: 1rem;
+    }
+    
+   
+}
+
+.sec-fechas2 {
+    .img-fecha{
+        display: flex;
+        justify-content: space-around;
+    }
+    .img-fecha img{
+        width: 30%;
+        margin-inline: 30px;
+        margin-top: 2rem;
+    }    
+    .sec-fechas-h2{
+        margin: 1rem;
+    }
+}
