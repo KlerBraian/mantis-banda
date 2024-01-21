@@ -5,69 +5,59 @@
     background-image: url("../img/logofondo.jpeg");
     width: 100%;
     background-size: cover;
-
-    .redes-sociales{
-        list-style-type: none;
-        display: flex;
-        justify-content: center;
+    .contenedor__redes{
+        margin-top: 1.5rem;   
+        .redes__sociales{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            .redes__sociales-item{
+                margin-inline: 1rem;
+            }
+        }
     }
-    
-    .redes-sociales-item{
-        margin-inline: 1rem;
-    }
-    
-    .contenedor-redes{
-        margin-top: 1.5rem;
-    }
-
-    .barra-navegacion{
+    .barra__nav{
         display: flex !important;
         justify-content: space-around !important;
         background-color:transparent!important;
         text-align: end;
         font-size: 1.5rem;
+        .nav__item{
+            font-size: 25px;
+        }
     }
-    
-    .nav__item{
-        font-size: 25px;
-    }
-    
-    .nav-button{
+    .nav__btn{
         background-color: #ffffff;
         color: black;
         padding: 2px;
         padding-block: 1px;
     }
+    
 }
 
 .header2 {
-    .redes-sociales{
-        list-style-type: none;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .redes-sociales-item{
-        margin-inline: 1rem;
-    }
-    
-    .contenedor-redes{
+    .contenedor__redes{
         margin-top: 1.5rem;
+        .redes__sociales{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            .redes__sociales-item{
+                margin-inline: 1rem;
+            }
+        }
     }
-
-    .barra-navegacion{
+    .barra__nav{
         display: flex !important;
         justify-content: space-around !important;
         background-color:transparent!important;
         text-align: end;
         font-size: 1.5rem;
+        .nav__item{
+            font-size: 25px;
+        }
     }
-    
-    .nav__item{
-        font-size: 25px;
-    }
-    
-    .nav-button{
+    .nav__btn{
         background-color: #ffffff;
         color: black;
         padding: 2px;

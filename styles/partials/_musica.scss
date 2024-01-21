@@ -1,4 +1,4 @@
-.sec-musica-letra {
+.musica-letra {
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
@@ -7,7 +7,7 @@
         text-align: center;
     }
 
-    .video-container{
+    .musica__video-container{
         margin-top: 6rem;
         margin-left: 1rem;
     }
@@ -17,14 +17,14 @@
         height:415px; 
     }
 
-    .nombre-cancion{
+    .letras__nombre-cancion{
         padding-inline: 2rem;
         color: #ffffff;
         font-size: 25px;
         font-weight: bold;
     }
 
-    .letra-cancion{
+    .letras__letra-cancion{
         font-family:'Diphylleia', serif;
         padding-inline: 2rem;
         padding-block: 10px;

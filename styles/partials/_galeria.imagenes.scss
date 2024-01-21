@@ -1,23 +1,10 @@
-.sec-galeria-imagenes {
-
-    .contenedor-galeria-imagenes{
+.galeria-imagenes {
+    .contenedor__galeria-imagenes{
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
     }
     
-    .contenedor-galeria-imagenes img{
-        width: 100%;
-        height: 15rem;
-        object-fit: cover;
-    } 
-    
-    .contenedor-galeria-imagenes2{
-        padding-block: 3rem;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
-    }
-    
-    .contenedor-galeria-imagenes2 img{
+    .contenedor__galeria-imagenes img{
         width: 100%;
         height: 15rem;
         object-fit: cover;

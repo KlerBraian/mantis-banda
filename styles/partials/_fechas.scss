@@ -1,37 +1,54 @@
 .fechas {
-    .img-fecha{
+    .contenedor__fechas-img{
         display: flex;
         justify-content: space-around;
     }
     
-    .sec-fechas{
+    .contenedor__fechas{
         margin-top: 3rem;
         margin-bottom: 40px;
     }
     
-    .sec-fechas img{
+    .contenedor__fechas img{
         width: 30%;
         margin-inline: 40px;
     }
     
-    .sec-fechas-h2{
+    .contenedor__fechas-h2{
         margin: 1rem;
     }
     
    
 }
 
-.sec-fechas2 {
-    .img-fecha{
-        display: flex;
-        justify-content: space-around;
-    }
-    .img-fecha img{
-        width: 30%;
-        margin-inline: 30px;
-        margin-top: 2rem;
-    }    
-    .sec-fechas-h2{
+.fechas2{
+    padding: 2rem;
+
+    .contenedor__fechas-h2{
         margin: 1rem;
     }
-}
+    .contenedor__fechas2-ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-left: 0px;
+        margin-top: 2rem;
+        }
+    .contenedor__fechas2-li{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-inline: 20px;
+        margin-top: 2rem;
+    }
+    .contenedor__fechas2__li-item{
+        width: 100%; 
+    }
+    .contenedor__fechas2__li-btn{
+        margin-top: 30px;
+        text-align: center;
+    }
+    }
+    
+
+
