@@ -140,6 +140,43 @@ body {
     opacity: 1;
   }
 }
+.wobble-hor-bottom:hover {
+  animation: wobble-hor-bottom 0.8s both;
+}
+@keyframes wobble-hor-bottom {
+  0%, 100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+.roll-in-left {
+  animation: roll-in-left 0.6s ease-out both;
+}
+@keyframes roll-in-left {
+  0% {
+    transform: translateX(-800px) rotate(-540deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
 .header {
   display: flex;
   flex-direction: column;
@@ -175,6 +212,9 @@ body {
   padding: 2px;
   padding-block: 1px;
 }
+.header .actives {
+  text-decoration: underline !important;
+}
 
 .header2 .contenedor__redes {
   margin-top: 1.5rem;
@@ -202,6 +242,9 @@ body {
   color: black;
   padding: 2px;
   padding-block: 1px;
+}
+.header2 .actives {
+  text-decoration: underline !important;
 }
 
 .fechas .contenedor__fechas-img {
@@ -347,16 +390,15 @@ body {
     justify-content: end !important;
   }
   .header2 {
+    background-color: rgb(5, 14, 5);
+    background: linear-gradient(236deg, rgb(5, 14, 5) 20%, rgb(25, 135, 84) 56%, rgb(0, 0, 0) 100%);
     background-color: transparent;
   }
   .header2 .contenedor__redes {
     margin-top: 0px;
   }
-  .header2 .container__nav {
+  .header2 nav .container__nav {
     justify-content: end !important;
-  }
-  .header2 nav {
-    background-color: #198754;
   }
   .fechas .contenedor__fechas-img {
     flex-direction: column;
@@ -397,7 +439,7 @@ body {
   .header .container__nav {
     justify-content: end !important;
   }
-  .header .barra__nav {
+  .header .container__nav .barra__nav {
     align-items: end;
   }
   .header2 {
@@ -407,10 +449,10 @@ body {
   .header2 .container__nav {
     justify-content: end !important;
   }
-  .header2 .barra__nav {
+  .header2 .container__nav .barra__nav {
     align-items: end;
   }
-  .redes__sociales {
+  .header2 .redes__sociales {
     margin: 0;
   }
   .musica-letra .musica__video-container {
@@ -434,32 +476,32 @@ body {
   .header .contenedor__redes {
     margin: 0;
   }
+  .header .contenedor__redes i {
+    font-size: 18px;
+  }
   .header .container__nav {
     justify-content: end !important;
   }
-  .header .nav__item {
-    font-size: 11px;
-  }
-  .header .nav__btn {
+  .header .container__nav .nav__btn {
     font-size: 15px;
   }
-  .header i {
-    font-size: 18px;
+  .header .container__nav .nav__item {
+    font-size: 15px;
   }
   .header2 .contenedor__redes {
     margin: 0;
   }
+  .header2 .contenedor__redes i {
+    font-size: 18px;
+  }
   .header2 .container__nav {
     justify-content: end !important;
   }
-  .header2 .nav__item {
-    font-size: 11px;
-  }
-  .header2 .nav__btn {
+  .header2 .container__nav .nav__btn {
     font-size: 15px;
   }
-  .header2 i {
-    font-size: 18px;
+  .header2 .container__nav .nav__item {
+    font-size: 15px;
   }
   .musica-letra .musica__video-container {
     margin: 10px;
@@ -476,76 +518,80 @@ body {
     padding-top: 0px;
     margin-top: 2rem;
   }
+  body h2 {
+    font-size: 1.5rem;
+  }
   .header {
     padding-bottom: 20px;
-  }
-  .header a {
-    font-size: 3px;
-  }
-  .header i {
-    font-size: 20px;
-    padding: 8px;
   }
   .header ul {
     padding-left: 0px;
   }
-  .header .redes__sociales {
+  .header .contenedor__redes .redes__sociales {
     padding-top: 10px;
   }
-  .header .redes__sociales-item {
+  .header .contenedor__redes .redes__sociales .redes__sociales-item {
     margin-inline: 0px;
   }
-  .header .nav__btn {
-    font-size: 12px;
+  .header .contenedor__redes .redes__sociales .redes__sociales-item i {
+    font-size: 20px;
+    padding: 8px;
   }
-  .header .container__nav {
-    justify-content: start !important;
-  }
-  .header .barra__nav {
-    display: flex;
-    align-items: start;
-    justify-content: start !important;
+  .header .contenedor__redes .redes__sociales .redes__sociales-item a {
+    font-size: 3px;
   }
   .header .navegacion {
     display: flex;
     align-items: start !important;
     justify-content: start !important;
   }
+  .header .navegacion .container__nav {
+    justify-content: start !important;
+  }
+  .header .navegacion .container__nav .barra__nav {
+    display: flex;
+    align-items: start;
+    justify-content: start !important;
+  }
+  .header .navegacion .container__nav .nav__btn {
+    font-size: 12px;
+  }
   .header2 {
-    background-color: #198754;
+    background-color: rgb(5, 14, 5);
+    background: linear-gradient(236deg, rgb(5, 14, 5) 20%, rgb(25, 135, 84) 56%, rgb(0, 0, 0) 100%);
     padding-bottom: 20px;
-  }
-  .header2 a {
-    font-size: 3px;
-  }
-  .header2 i {
-    font-size: 20px;
-    padding: 8px;
   }
   .header2 ul {
     padding-left: 0px;
   }
-  .header2 .redes__sociales {
+  .header2 .contenedor__redes .redes__sociales {
     padding-top: 10px;
   }
-  .header2 .redes__sociales-item {
+  .header2 .contenedor__redes .redes__sociales .redes__sociales-item {
     margin-inline: 0px;
   }
-  .header2 .nav__btn {
-    font-size: 12px;
+  .header2 .contenedor__redes .redes__sociales .redes__sociales-item a {
+    font-size: 3px;
   }
-  .header2 .container__nav {
-    justify-content: start !important;
-  }
-  .header2 .barra__nav {
-    display: flex;
-    align-items: start;
-    justify-content: start !important;
+  .header2 .contenedor__redes .redes__sociales .redes__sociales-item i {
+    font-size: 20px;
+    padding: 8px;
   }
   .header2 .navegacion {
     display: flex;
     align-items: start !important;
     justify-content: start !important;
+  }
+  .header2 .navegacion .container__nav {
+    justify-content: start !important;
+  }
+  .header2 .navegacion .container__nav .barra__nav {
+    display: flex;
+    align-items: start;
+    justify-content: start !important;
+  }
+  .header2 .navegacion .container__nav .nav__btn {
+    font-size: 12px;
   }
   .musica-letra {
     margin-top: 20px;

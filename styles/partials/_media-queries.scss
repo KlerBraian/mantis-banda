@@ -6,15 +6,17 @@
     }
 
     .header2 {
+        background-color:$colorVerde;
+        background: $gradiente;
         background-color: transparent;
         .contenedor__redes{
             margin-top: 0px;
         }
-        .container__nav{
-            justify-content: end !important;    
-        }
+       
         nav {
-            background-color:#198754
+            .container__nav{
+                justify-content: end !important;    
+            }
         }
     }
       
@@ -62,9 +64,9 @@
         flex-direction: column;
         .container__nav{
         justify-content: end !important;    
-        }
         .barra__nav{
-        align-items: end;
+            align-items: end;
+            }
         }
     }
 
@@ -73,14 +75,13 @@
         flex-direction: column;
         .container__nav{
         justify-content: end !important;    
-        }
         .barra__nav{
-        align-items: end;
+            align-items: end;
+            }
         }
-    }
-
-    .redes__sociales{
-        margin: 0;
+        .redes__sociales{
+            margin: 0;
+        }   
     }
     
     .musica-letra{
@@ -109,36 +110,36 @@
     .header {
         .contenedor__redes{
             margin: 0;
+            i{
+                font-size: 18px;
+            }
         }
         .container__nav{
-            justify-content: end !important;    
-        }
-        .nav__item{ 
-            font-size: 11px;
-        }
-        .nav__btn{
-            font-size: 15px;
-        }
-        i{
-            font-size: 18px;
+            justify-content: end !important;
+            .nav__btn{
+                font-size: 15px;
+            }
+            .nav__item{ 
+                font-size: 15px;
+            }    
         }
     }
 
     .header2 {
         .contenedor__redes{
             margin: 0;
+            i{
+                font-size: 18px;
+            }
         }
         .container__nav{
-            justify-content: end !important;    
-        }
-        .nav__item{ 
-            font-size: 11px;
-        }
-        .nav__btn{
-            font-size: 15px;
-        }
-        i{
-            font-size: 18px;
+            justify-content: end !important;  
+            .nav__btn{
+                font-size: 15px;
+            }  
+            .nav__item{ 
+                font-size: 15px;
+            }
         }
     }
     .musica-letra{
@@ -158,78 +159,84 @@
             padding-top: 0px;
             margin-top: 2rem;
         }
+        h2{
+            font-size: 1.5rem;
+        }
     }    
     .header{
         padding-bottom: 20px;
-        a{
-            font-size: 3px;
-        }
-    
-        i{
-            font-size: 20px;
-            padding: 8px;
-        }
         ul{
             padding-left: 0px;
         }
-        .redes__sociales{
-            padding-top: 10px;
-        }
-        .redes__sociales-item{
-            margin-inline: 0px;
-        }
-        .nav__btn{
-            font-size: 12px;
-        }
-        .container__nav{
-            justify-content: start !important;    
-        }    
-        .barra__nav{
-            display: flex;
-            align-items: start;
-            justify-content: start !important;
+        .contenedor__redes{
+            .redes__sociales{
+                padding-top: 10px;
+                .redes__sociales-item{
+                    margin-inline: 0px;
+                    i{
+                        font-size: 20px;
+                        padding: 8px;
+                    }
+                    a{
+                        font-size: 3px;
+                    }
+                }
+            }
         }
         .navegacion{
             display: flex;
             align-items: start !important;
             justify-content: start !important;
-        }
+            .container__nav{
+                justify-content: start !important;  
+                .barra__nav{
+                    display: flex;
+                    align-items: start;
+                    justify-content: start !important;
+                }  
+                .nav__btn{
+                    font-size: 12px;
+                }
+            }  
+        }  
     }
     .header2{
-        background-color: #198754;
+        background-color:$colorVerde;
+        background: $gradiente;
         padding-bottom: 20px;
-        a{
-            font-size: 3px;
-        }
-    
-        i{
-            font-size: 20px;
-            padding: 8px;
-        }
         ul{
             padding-left: 0px;
         }
-        .redes__sociales{
-            padding-top: 10px;
-        }
-        .redes__sociales-item{
-            margin-inline: 0px;
-        }
-        .nav__btn{
-            font-size: 12px;
-        }
-        .container__nav{
-            justify-content: start !important;    
-        }    
-        .barra__nav{
-            display: flex;
-            align-items: start;
-            justify-content: start !important;
+        .contenedor__redes{
+            .redes__sociales{
+                padding-top: 10px;
+                .redes__sociales-item{
+                    margin-inline: 0px;
+                    a{
+                        font-size: 3px;
+                    }
+                    i{
+                        font-size: 20px;
+                        padding: 8px;
+                    }
+                }
+            }
         }
         .navegacion{
             display: flex;
             align-items: start !important;
             justify-content: start !important;
+            .container__nav{
+                justify-content: start !important;
+                .barra__nav{
+                    display: flex;
+                    align-items: start;
+                    justify-content: start !important;
+                }          
+                .nav__btn{
+                    font-size: 12px;
+                }   
+            }   
         }
     }
     .musica-letra{

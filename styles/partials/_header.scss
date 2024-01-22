@@ -32,7 +32,9 @@
         padding: 2px;
         padding-block: 1px;
     }
-    
+    .actives {
+        text-decoration: underline!important;
+    }
 }
 
 .header2 {
@@ -62,5 +64,8 @@
         color: black;
         padding: 2px;
         padding-block: 1px;
+    }
+    .actives {
+        text-decoration: underline!important;
     }
 }
