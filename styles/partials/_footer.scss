@@ -1,7 +1,7 @@
 .footer__contacto{
     font-family: 'Courier New', Courier, monospace;
-    background-color: gray;
-    margin-top: 2rem;
+    background-color: $colorFooter;
+    margin-top: 3rem;
     padding: 2rem;
     
     .footer__btn{
@@ -10,8 +10,8 @@
     }
     
     .footer__h3{
-            color:#ffffff;
-            font-weight: bold
+            color:$colorBlanco;
+            font-weight: $fuenteGrueso
     }
     
     .footer__p{
@@ -21,13 +21,13 @@
 
 .footer__contacto2{
     font-family: 'Courier New', Courier, monospace;
-    background-color: gray;
+    background-color: $colorFooter;
     margin-top: 2rem;
     padding: 4rem;
 
     .container__img{
         padding: 1rem;
-        background-color: #ffffff;
+        background-color: $colorBlanco;
         border-radius: 0.375rem;
         margin-bottom: 1rem;
     }
@@ -38,8 +38,8 @@
     }
         
     .footer__h3{
-        color:#ffffff;
-        font-weight: bold
+        color:$colorBlanco;
+        font-weight: $fuenteGrueso
     }
         
     .footer__p{

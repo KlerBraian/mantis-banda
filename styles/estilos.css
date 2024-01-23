@@ -204,6 +204,7 @@ body {
   font-size: 1.5rem;
 }
 .header .barra__nav .nav__item {
+  display: inline-block;
   font-size: 25px;
 }
 .header .nav__btn {
@@ -235,6 +236,7 @@ body {
   font-size: 1.5rem;
 }
 .header2 .barra__nav .nav__item {
+  display: inline-block;
   font-size: 25px;
 }
 .header2 .nav__btn {
@@ -254,6 +256,7 @@ body {
 .fechas .contenedor__fechas {
   margin-top: 3rem;
   margin-bottom: 40px;
+  width: 100%;
 }
 .fechas .contenedor__fechas img {
   width: 30%;
@@ -322,19 +325,20 @@ body {
 
 .galeria-imagenes .contenedor__galeria-imagenes {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 .galeria-imagenes .contenedor__galeria-imagenes img {
   width: 100%;
   height: 15rem;
   -o-object-fit: cover;
      object-fit: cover;
+  margin-top: 2rem;
 }
 
 .footer__contacto {
   font-family: "Courier New", Courier, monospace;
-  background-color: gray;
-  margin-top: 2rem;
+  background-color: #808080;
+  margin-top: 3rem;
   padding: 2rem;
 }
 .footer__contacto .footer__btn {
@@ -351,7 +355,7 @@ body {
 
 .footer__contacto2 {
   font-family: "Courier New", Courier, monospace;
-  background-color: gray;
+  background-color: #808080;
   margin-top: 2rem;
   padding: 4rem;
 }
@@ -378,7 +382,7 @@ body {
   font-family: "Lora", serif;
   font-size: 30px;
   padding: 2rem;
-  text-shadow: 0px 0px 10px #FFF;
+  text-shadow: 0px 0px 10px #ffffff;
   text-shadow: 4px 2px 12px #20b36e;
   text-shadow: -4px 2px 12px #20b36e;
   text-shadow: 0px -6px 14px #198751;
@@ -390,7 +394,7 @@ body {
     justify-content: end !important;
   }
   .header2 {
-    background-color: rgb(5, 14, 5);
+    background-color: hsl(120, 47%, 4%);
     background: linear-gradient(236deg, rgb(5, 14, 5) 20%, rgb(25, 135, 84) 56%, rgb(0, 0, 0) 100%);
     background-color: transparent;
   }
@@ -557,7 +561,7 @@ body {
     font-size: 12px;
   }
   .header2 {
-    background-color: rgb(5, 14, 5);
+    background-color: hsl(120, 47%, 4%);
     background: linear-gradient(236deg, rgb(5, 14, 5) 20%, rgb(25, 135, 84) 56%, rgb(0, 0, 0) 100%);
     padding-bottom: 20px;
   }

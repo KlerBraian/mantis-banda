@@ -19,9 +19,9 @@
 
     .letras__nombre-cancion{
         padding-inline: 2rem;
-        color: #ffffff;
+        color: $colorBlanco;
         font-size: 25px;
-        font-weight: bold;
+        font-weight: $fuenteGrueso;
     }
 
     .letras__letra-cancion{

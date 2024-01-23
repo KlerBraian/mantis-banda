@@ -23,11 +23,12 @@
         text-align: end;
         font-size: 1.5rem;
         .nav__item{
+            display: inline-block;
             font-size: 25px;
         }
     }
     .nav__btn{
-        background-color: #ffffff;
+        background-color: $colorBlanco;
         color: black;
         padding: 2px;
         padding-block: 1px;
@@ -56,11 +57,12 @@
         text-align: end;
         font-size: 1.5rem;
         .nav__item{
+            display: inline-block;
             font-size: 25px;
         }
     }
     .nav__btn{
-        background-color: #ffffff;
+        background-color: $colorBlanco;
         color: black;
         padding: 2px;
         padding-block: 1px;
