@@ -7,3 +7,9 @@ $colorVerde:hsl(120, 47%, 4%);
 $fuenteGrueso: bold; 
 $colorFooter: #808080;
 $gradiente: linear-gradient(236deg, rgba(5,14,5,1) 20%, rgba(25,135,84,1) 56%, rgba(0,0,0,1) 100%);
+$texto-centrado: center;
+
+@mixin flex-spacearound {
+    display: flex;
+    justify-content: space-around;
+}

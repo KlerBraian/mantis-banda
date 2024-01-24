@@ -274,8 +274,8 @@ body {
 }
 .fechas2 .contenedor__fechas2-ul {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
+  flex-direction: row;
   padding-left: 0px;
   margin-top: 2rem;
 }

@@ -1,5 +1,5 @@
 h1{
-    text-align: center;
+    text-align: $texto-centrado;
     font-weight: $fuenteGrueso;
     color: $colorBlanco;
     padding: 2rem;
@@ -7,7 +7,7 @@ h1{
 
 h2{
     display: block;
-    text-align: center;
+    text-align: $texto-centrado;
     color: $colorBlanco;
     padding: 1rem;
     font-size: 3rem;

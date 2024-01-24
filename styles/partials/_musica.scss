@@ -1,10 +1,10 @@
 .musica-letra {
-    display: flex;
-    justify-content: space-around;
+    @include flex-spacearound;
     margin-top: 40px;
 
     .letras{
-        text-align: center;
+        text-align: $texto-centrado;
+        ;
     }
 
     .musica__video-container{

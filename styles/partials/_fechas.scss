@@ -1,7 +1,6 @@
 .fechas {
     .contenedor__fechas-img{
-        display: flex;
-        justify-content: space-around;
+        @include flex-spacearound;
     }
     
     .contenedor__fechas{
@@ -28,9 +27,8 @@
         margin: 1rem;
     }
     .contenedor__fechas2-ul{
-        display: flex;
+        @include flex-spacearound;
         flex-direction: row;
-        justify-content: space-around;
         padding-left: 0px;
         margin-top: 2rem;
         }
@@ -46,7 +44,7 @@
     }
     .contenedor__fechas2__li-btn{
         margin-top: 30px;
-        text-align: center;
+        text-align: $texto-centrado;
     }
     }
     
