@@ -1,0 +1,48 @@
+.section__contacto{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: $colorFooter;
+    margin-top: 3rem;
+    padding: 2rem;
+    
+    .contacto__btn{
+        text-align: $texto-centrado;
+        margin-top: 2rem;
+    }
+    
+    .contacto__h3{
+            color:$colorBlanco;
+            font-weight: $fuenteGrueso
+    }
+    
+    .contacto__p{
+        margin-top: 24px;
+    }
+}
+
+.section__contacto2{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: $colorFooter;
+    margin-top: 2rem;
+    padding: 4rem;
+
+    .container__img{
+        padding: 1rem;
+        background-color: $colorBlanco;
+        border-radius: 0.375rem;
+        margin-bottom: 1rem;
+    }
+        
+    .contacto__btn{
+        text-align: $texto-centrado;
+         margin-top: 2rem
+    }
+        
+    .contacto__h3{
+        color:$colorBlanco;
+        font-weight: $fuenteGrueso
+    }
+        
+    .contacto__p{
+        margin-top: 24px;
+    }
+} 

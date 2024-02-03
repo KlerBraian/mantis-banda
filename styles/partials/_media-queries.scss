@@ -150,7 +150,20 @@
             width: 80vw;
             }
     }
+    .footer {
+        .footer__h3{
+            font-size: 1.5rem;
+        }  
+        .redes__sociales-item i{
+            font-size: 1.5rem;
+            padding-top: 0px;
+        }
+        .redes__sociales-item a {
+            font-size: 1.5rem;
+        }
+    }
 }
+
 
 @media (max-width: 400px){
     body{
@@ -250,18 +263,33 @@
             margin-top: 2rem;
         }
     } 
-    .foooter__contacto {
-        .footer__h3{
+    .section__contacto {
+        .contacto__h3{
             font-size: 18px;
         }
     }
-    .footer__contacto2{
+    .section__contacto2{
         padding: 2rem;
-        .footer__h3{
+        .contacto__h3{
             font-size: 18px;
         }
         .container__img{
             display: none;
         }  
+    }
+    .footer {
+        .footer__h3{
+            font-size: 1rem;
+        }  
+        .redes__sociales-item a {
+            font-size: 1rem;
+        }
+         
+        .redes__sociales-item i{
+            font-size: 1rem;
+            padding-top: 0px;
+            padding-inline: 8px
+            ;
+        }
     }
 }
