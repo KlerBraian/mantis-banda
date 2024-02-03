@@ -268,6 +268,7 @@ body {
 
 .fechas2 {
   padding: 2rem;
+  min-height: calc(100vh - 300px);
 }
 .fechas2 .contenedor__fechas-h2 {
   margin: 1rem;
@@ -342,6 +343,7 @@ body {
 }
 
 .section__contacto2 {
+  min-height: calc(100vh - 250px);
   font-family: "Courier New", Courier, monospace;
   background-color: #808080;
   margin-top: 2rem;
@@ -408,6 +410,10 @@ body {
   text-shadow: -4px 2px 12px #20b36e;
   text-shadow: 0px -6px 14px #198751;
   text-shadow: 0px -12px 14px #198751;
+}
+
+.main__sobre-nosotros {
+  min-height: calc(100vh - 300px);
 }
 
 @media (max-width: 992px) {

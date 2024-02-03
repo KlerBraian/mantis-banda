@@ -20,6 +20,7 @@
 }
 
 .section__contacto2{
+    min-height: calc(100vh - 250px);
     font-family: 'Courier New', Courier, monospace;
     background-color: $colorFooter;
     margin-top: 2rem;
