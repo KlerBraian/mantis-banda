@@ -39,8 +39,9 @@
 }
 
 .header2 {
+    flex-grow: 0;
     .contenedor__redes{
-        margin-top: 1.5rem;
+        margin-top: 0.7rem;
         .redes__sociales{
             list-style-type: none;
             display: flex;

@@ -3,19 +3,64 @@
         .container__nav{
             justify-content: end !important;    
         }
+        nav {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 0.5rem;  
+            padding: 0 !important;
+            z-index: 1;
+            opacity:0.90;
+            .container__nav{
+                padding: 0;  
+                justify-content: flex-end !important;
+                .barra__nav {
+                    align-items: center;
+
+                }
+                .show {
+                    margin-top: 0.5rem;
+                }
+                .nav__item {
+                    font-size: 15px;
+                }
+            }
+        }
     }
+    
 
     .header2 {
-        background-color:$colorVerde;
-        background: $gradiente;
         background-color: transparent;
         .contenedor__redes{
+        background-color:$colorVerde;
+        background: $gradiente;
             margin-top: 0px;
         }
        
         nav {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 0.5rem;  
+            padding: 0 !important;
+            z-index: 1;
+            opacity:0.90;
             .container__nav{
-                justify-content: end !important;    
+                padding: 0;  
+                justify-content: flex-end !important;
+                .barra__nav {
+                    align-items: center;
+
+                }
+                .show {
+                    margin-top: 0.5rem;
+                    border: 0.5px solid white;
+                    border-radius: 0.3rem;
+                    background-color: black;
+                }
+                .nav__item {
+                    font-size: 15px;
+                }
             }
         }
     }
@@ -198,14 +243,14 @@
         }
         .navegacion{
             display: flex;
-            align-items: start !important;
-            justify-content: start !important;
+            align-items: end !important;
+            justify-content: flex-end !important;
             .container__nav{
-                justify-content: start !important;  
+                justify-content: flex-end !important;
                 .barra__nav{
                     display: flex;
-                    align-items: start;
-                    justify-content: start !important;
+                    align-items: end;
+                    justify-content: end !important;
                 }  
                 .nav__btn{
                     font-size: 12px;
@@ -236,15 +281,9 @@
             }
         }
         .navegacion{
-            display: flex;
-            align-items: start !important;
-            justify-content: start !important;
             .container__nav{
-                justify-content: start !important;
                 .barra__nav{
                     display: flex;
-                    align-items: start;
-                    justify-content: start !important;
                 }          
                 .nav__btn{
                     font-size: 12px;
