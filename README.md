@@ -6,7 +6,7 @@ Pagina de banda realizada en HTML por **Kler Braian** como parte del modulo Desa
 ## Herramientas Utilizadas
 
 1. **HTML**: Para la estructura básica de la aplicación.
-2. **CSS**: Para el estilo y diseño de la aplicación.
+2. **SCSS**: Para el estilo y diseño de la aplicación.
 3. **ANIMACIONES**: Animaciones de boostrap.
 
 
